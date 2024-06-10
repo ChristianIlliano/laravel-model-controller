@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row g-3">
                 @foreach ($movies as $movie)
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="ms_card h-100">
+                    <div class="col-3">
+                        <div class="card">
                             <img src="{{ $movie['image'] }}" alt="">
                             <div class="ms_card-body">
                                 <p>
